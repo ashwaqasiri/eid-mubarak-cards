@@ -16,7 +16,7 @@
             <p class="pt-8 text-sm">تستطيع كتابة اسمك على البطابقة وتحميلها لتشاركها مع من تحب ⁂</p>
 
             <div class="pt-12 pb-8">
-                <a href="{!!($base64 ? $base64 : 'img/eid-1.jpg') !!}" download="eidmubarak.jpg" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+                <a href="{!!($base64 ? $base64 : 'img/eid-1.jpg') !!}" download="eidmubarak.jpg" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full" style="background-color: #c79a69">
                   تحميل
                 </a> 
             </div>
