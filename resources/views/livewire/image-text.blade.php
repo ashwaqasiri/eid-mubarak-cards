@@ -11,9 +11,9 @@
 
                 <input wire:model='name'
                     class="text-xl font-bold pt-8 lg:pt-0 text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="text" placeholder="اسمك" aria-label="Full name">
+                    type="text" placeholder="الاسم" aria-label="Full name">
                 <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-                <p class="pt-8 text-sm">تستطيع كتابة اسمك على البطابقة وتحميلها لتشاركها مع من تحب ⁂</p>
+                <p class="pt-8 text-sm">تستطيع كتابة اسمك على البطاقة وتحميلها لتشاركها مع من تحب ⁂</p>
 
                 <div class="pt-12 pb-8">
                     <a href="{!! $base64 ? $base64 : 'img/eid-1.jpg' !!}" download="eidmubarak.jpg"
